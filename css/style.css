@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    text-align: right;
+}
+
+.rightNav{
+    width: 30%;
+    text-align: right;
+}
+
+#search{
+    padding: 5px;
+    font-family: 'Times New Roman';
+    background: yellow;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.btn{
+    width: 80px;
+    background: gray;
+    border: 15px solid gray;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    opacity: 1;
+    color: #000;
+}
+
+#search:focus{
+    outline: none;
+}
+
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../image/rhyno pic.jpg');
+    width: 100%;
+}
+.box-main{
+    color: yellow;
+    font-size: x-large;
+    text-align: center;
+}
+
+footer{
+    background-color: #000;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+#socialicon{
+    text-align: center;
+}
+
+#socialicon ul{
+    float: left;
+}
+
+#socialicon ul li{
+    float: left;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.container{
+    font-size: xx-large;
+    color: yellow;
+    background-color: black;
+    opacity: 10;
+}
+
+
+.containerse{
+    font-size: xx-large;
+    color: darkgray;
+    background-color: black;
+}
+
+
+
+.containersemax{
+    font-size: xx-large;
+    color: yellow;
+    background-color: black;
+}
+
+.compare{
+    font-size: xx-large;
+    color: darkgrey;
+    background-color: #000;
+}
+
+.containerabout{
+    font-size: xx-large;
+    color: darkgray;
+    background-color: black;
+}
+
+.containercontact{
+    font-size: xx-large;
+    color: yellow;
+    background-color: #000;
+}
+
+.containerrentals{
+    font-size: xx-large;
+    color: darkgrey;
+    background-color: black;
+}
+
